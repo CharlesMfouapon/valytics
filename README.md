@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<img src="https://img.shields.io/badge/status-production–grade-006b3f?style=for-the-badge" alt="Status: Active" />
+<img src="https://img.shields.io/badge/status-real–time-006b3f?style=for-the-badge" alt="Status: Active" />
 <img src="https://img.shields.io/badge/backend-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Backend: Rust" />
 <img src="https://img.shields.io/badge/frontend-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Frontend: Next.js" />
 <img src="https://img.shields.io/badge/valuation-Monte_Carlo-991b1b?style=for-the-badge" alt="Valuation: Monte Carlo" />
