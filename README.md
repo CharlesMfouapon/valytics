@@ -18,7 +18,7 @@
 
 ## Real-time Financial Analysis
 
-A production financial analysis platform that takes any public company or portfolio and returns: full financial statement breakdown, DuPont ratio decomposition, multi-stage DCF valuation with Monte Carlo simulation, comparable company analysis against sector peers, portfolio risk decomposition by factor, efficient frontier optimization, and scenario analysis.
+A financial analysis platform that takes any public company or portfolio and returns: full financial statement breakdown, DuPont ratio decomposition, multi-stage DCF valuation with Monte Carlo simulation, comparable company analysis against sector peers, portfolio risk decomposition by factor, efficient frontier optimization, and scenario analysis.
 
 ---
 
