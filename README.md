@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=DC2626&center=true&vCenter=true&width=700&lines=Valytics;Institutional+Financial+Analysis;DCF+·+Monte+Carlo+·+Ratio+Analysis;Comparable+Companies+·+Portfolio+Risk" alt="Valytics" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=DC2626&center=true&vCenter=true&width=700&lines=Valytics;Real-time+Financial+Analysis;DCF+·+Monte+Carlo+·+Ratio+Analysis;Comparable+Companies+·+Portfolio+Risk" alt="Valytics" />
 
 <br>
 <br>
 
-<img src="https://img.shields.io/badge/status-production–grade-006b3f?style=for-the-badge" alt="Status: Production-Grade" />
+<img src="https://img.shields.io/badge/status-production–grade-006b3f?style=for-the-badge" alt="Status: Active" />
 <img src="https://img.shields.io/badge/backend-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Backend: Rust" />
 <img src="https://img.shields.io/badge/frontend-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Frontend: Next.js" />
 <img src="https://img.shields.io/badge/valuation-Monte_Carlo-991b1b?style=for-the-badge" alt="Valuation: Monte Carlo" />
@@ -16,7 +16,7 @@
 
 ---
 
-## Institutional-Grade Financial Analysis
+## Real-time Financial Analysis
 
 A production financial analysis platform that takes any public company or portfolio and returns: full financial statement breakdown, DuPont ratio decomposition, multi-stage DCF valuation with Monte Carlo simulation, comparable company analysis against sector peers, portfolio risk decomposition by factor, efficient frontier optimization, and scenario analysis.
 
