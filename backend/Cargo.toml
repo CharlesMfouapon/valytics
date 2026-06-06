@@ -1,0 +1,60 @@
+[package]
+name = "valytics"
+version = "0.1.0"
+edition = "2021"
+description = "Institutional-grade financial analysis and valuation platform"
+license = "Apache-2.0"
+authors = ["Charles Mfouapon"]
+
+[dependencies]
+# Web framework
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# HTTP client
+reqwest = { version = "0.12", features = ["json"] }
+
+# Financial computation
+rust_decimal = "1"
+rust_decimal_macros = "1"
+chrono = { version = "0.4", features = ["serde"] }
+
+# Statistics
+statrs = "0.17"
+rand = "0.8"
+rand_distr = "0.4"
+
+# Linear algebra
+nalgebra = "0.33"
+
+# Caching
+redis = { version = "0.25", features = ["tokio-comp"] }
+
+# Error handling
+thiserror = "2"
+anyhow = "1"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["json", "env-filter"] }
+
+# Environment
+dotenvy = "0.15"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bin]]
+name = "valytics"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
